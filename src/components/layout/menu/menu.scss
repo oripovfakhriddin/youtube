@@ -1,0 +1,21 @@
+.menu__list{
+  width: 240px;
+}
+
+.menu__item a{
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 10px;
+  width: 100%;
+  color: #000;
+  
+  &:hover{
+    background-color: #dbdbdb;
+  }
+  
+}
+.active{
+  background-color: #dbdbdb !important;
+}

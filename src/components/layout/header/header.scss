@@ -1,0 +1,150 @@
+header{
+  margin-bottom: 10px;
+}
+
+.header__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
+/*--------HEADER LEFT BOX-----------*/
+
+.header__left{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__left__first__box{
+
+  button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 5px 6px;
+    &:hover{
+      border-radius: 50%;
+      background-color: #dbdbdb;
+    }
+  }
+}
+
+
+
+
+
+/*--------HEADER CENTER BOX-----------*/
+
+.header__center{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 602px;
+  width: 100%;
+
+  form{
+    border: 1px solid  rgba(0, 0, 0, 0.22);
+    box-shadow: 1px 1px 2px 0px rgba(211, 211, 211, 0.25) inset;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+.header__search__box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__search__icon__box{
+  padding: 7px 20px;
+
+  img{
+    max-width: 24px;
+    width: 100%;
+  }
+
+  &:hover{
+    background-color: #dbdbdb;
+  }
+}
+
+.header__search__input{
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 8px 10px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.header__search__voice__box{
+  padding: 8px;
+
+  &:hover{
+    border-radius: 50%;
+    background-color: #dbdbdb;
+  }
+}
+
+.header__search__voice__btn{ 
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 6px 7px;
+  img{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+/*--------HEADER RIGHT BOX-----------*/
+
+.header__right{
+  display: flex;
+  align-items: center;
+}
+
+.header__add__video__box{
+  margin-right: 24px;
+  padding: 10px 8px;
+  
+  &:hover{
+    border-radius: 50%;
+    background-color: #dbdbdb;
+  }
+}
+
+.header__notification__box{
+  margin-right: 30px;
+  padding: 10px 8px;
+  
+  &:hover{
+    border-radius: 50%;
+    background-color: #dbdbdb;
+  }
+}
+
+.header__account__box{
+  border-radius: 50%;
+  button{
+    padding: 0px;
+  }
+}
+
+.header__add__video__btn, 
+.header__notification__btn, 
+.header__account__btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
