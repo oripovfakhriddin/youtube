@@ -16,7 +16,7 @@ const WatchPage = () => {
     async function getData  () {
       try {
         let {data} = await request.get("", {params: params})
-        setData(data)
+        setData(data.items[0])
       } catch (error) {
         alert(error)
         console.log(error);
@@ -32,7 +32,7 @@ const WatchPage = () => {
   return (
     <Fragment>
       <section>
-        <SingleVideoCard data = {data}/>
+        <SingleVideoCard {...data}/>
       </section>
     </Fragment>
   )
